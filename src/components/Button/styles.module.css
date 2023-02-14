@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.container button {
+  border-radius: 20px;
+  background-color: rgb(49, 23, 69);
+  cursor: pointer;
+  padding: 1rem;
+  font-size: inherit;
+}
+
+.indicatorActive {
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(rgb(49, 23, 69), #f0f0f0);
+}
+
+.indicatorInactive {
+  height: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+}

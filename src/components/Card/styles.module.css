@@ -1,0 +1,25 @@
+.container {
+  padding: 3rem 2rem;
+  width: 100%;
+  background-color: rgba(37, 40, 77, 0.766);
+  border-radius: 20px;
+}
+
+.container:hover {
+  filter: brightness(120%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  padding: 2rem 0.5rem;
+  margin-top: 2rem;
+  max-height: 200px;
+  border-radius: 10px;
+  background-color: rgba(8, 9, 26, 0.766);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

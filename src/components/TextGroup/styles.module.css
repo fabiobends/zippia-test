@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #f0f0f0;
+}
+
+@media (max-width: 480px) {
+  .container span {
+    font-size: 16px;
+  }
+  
+  .container p {
+    font-size: 14px;
+  }
+}
