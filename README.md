@@ -26,3 +26,7 @@ The page redirects to `test/jobs` right after the "Loading" screen.
 - Server side rendering to get the data to feed a page (Next.js feature)
 - Use of folders to organize the project well, giving the proper responsibility, e.g `components`, `pages`, `styles`, etc.
 - Local environment variables (`.env.local`) to hide sensible tokens or api keys on a real project, it's important to set them only when deploying or setting them locally for testing purpose.
+
+## Link to the website
+
+Click [here](https://zippia-test-eight.vercel.app) to see the result.
