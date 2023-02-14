@@ -22,8 +22,10 @@ The page redirects to `test/jobs` right after the "Loading" screen.
 
 ## Skills seen on this project
 
-- Use of Typescript along with React
-- Server side rendering to get the data to feed a page (Next.js feature)
+- Use of Typescript along with React.
+- Server side rendering to get the data to feed a page (Next.js feature).
+- Consume RESTful API in this case using POST method.
+- Make website responsive in multiple device screens.
 - Use of folders to organize the project well, giving the proper responsibility, e.g `components`, `pages`, `styles`, etc.
 - Local environment variables (`.env.local`) to hide sensible tokens or api keys on a real project, it's important to set them only when deploying or setting them locally for testing purpose.
 
